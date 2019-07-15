@@ -1,0 +1,21 @@
+.vh{
+	min-height: 100vh;
+}
+header{
+	background: #032632 url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	background-position-y: bottom;
+	background-attachment: fixed;
+}
+header h1{
+	color: #dab9b957;
+}
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+ }

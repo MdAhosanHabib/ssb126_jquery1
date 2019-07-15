@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery class one</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fakeloader.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="fakeloader-overlay" class="visible incoming">
+  		<div class="loader-wrapper-outer">
+    		<div class="loader-wrapper-inner">
+				<div class="spinner-grow text-primary" role="status"></div>
+				<div class="spinner-grow text-secondary" role="status"></div>
+				<div class="spinner-grow text-success" role="status"></div>
+				<div class="spinner-grow text-danger" role="status"></div>
+				<div class="spinner-grow text-warning" role="status"></div>
+  			</div>
+		</div>
+	</div>
+
+	<header>
+		<div id="particles-js"></div>
+		<div class="container">
+			<div class="row vh justify-content-center align-items-center">
+				<div class="col-md-8 text-white text-center">
+					<h1>Ahosan Habib Rakib</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- loader -->
+	<script src="js/fakeloader.js"></script>
+
+	<!-- bouble -->
+	<script src="js/particles.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script>
+		$(function(){
+            window.FakeLoader.init( { auto_hide: true } );
+        });
+	</script>
+</body>
+</html>
